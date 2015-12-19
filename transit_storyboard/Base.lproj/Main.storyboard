@@ -16,7 +16,17 @@
                     <view key="view" contentMode="scaleToFill" id="6Pa-LF-vH9">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMc-wy-X03">
+                                <rect key="frame" x="283" y="285" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fMc-wy-X03" firstAttribute="centerX" secondItem="6Pa-LF-vH9" secondAttribute="centerX" id="HF7-hQ-bts"/>
+                            <constraint firstItem="fMc-wy-X03" firstAttribute="centerY" secondItem="6Pa-LF-vH9" secondAttribute="centerY" id="mMo-08-xBH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wPb-D3-FUf" userLabel="First Responder" sceneMemberID="firstResponder"/>
